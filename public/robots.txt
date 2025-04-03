@@ -1,0 +1,9 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://rayze.io/sitemap.xml
+
+# Crawl-delay to prevent overwhelming the server
+Crawl-delay: 1

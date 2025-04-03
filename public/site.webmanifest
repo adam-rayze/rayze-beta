@@ -1,0 +1,19 @@
+{
+  "name": "Rayze",
+  "short_name": "Rayze",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/7637xT3z/Rayze-Favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.postimg.cc/7637xT3z/Rayze-Favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#00BF63",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@layer base {
+  html {
+    @apply bg-[#16141D];
+  }
+  
+  body {
+    @apply bg-[#16141D] text-white font-['Montserrat'] font-normal min-h-screen;
+  }
+
+  #root {
+    @apply min-h-screen bg-[#16141D];
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-rayze-accent hover:bg-rayze-accent-hover text-white px-4 py-2 rounded-lg transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border border-rayze-accent text-rayze-accent hover:bg-rayze-accent hover:bg-opacity-10 px-4 py-2 rounded-lg transition-colors;
+  }
+
+  .btn-white {
+    @apply bg-white text-[#16141D] hover:bg-gray-100 px-4 py-2 rounded-lg transition-colors;
+  }
+
+  .btn-dark {
+    @apply bg-[#28253A] hover:bg-[#332F44] text-white px-4 py-2 rounded-lg transition-colors;
+  }
+
+  .btn-disabled {
+    @apply bg-[#28253A] text-gray-500 px-4 py-2 rounded-lg cursor-not-allowed;
+  }
+
+  .input-base {
+    @apply bg-[#28253A] text-white border border-gray-700 rounded-lg px-3 py-2 w-full focus:border-[#00BF63] focus:ring-1 focus:ring-[#00BF63] outline-none;
+  }
+
+  .card-base {
+    @apply bg-[#201E29] rounded-lg overflow-hidden shadow-lg;
+  }
+
+  .card-header {
+    @apply bg-[#28253A] px-4 py-3;
+  }
+
+  .card-footer {
+    @apply bg-[#28253A] px-4 py-3 border-t border-gray-700;
+  }
+}
